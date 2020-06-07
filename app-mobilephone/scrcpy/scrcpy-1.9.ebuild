@@ -30,7 +30,8 @@ IUSE=""
 RESTRICT="test"
 
 COMMON_DEPEND="media-libs/libsdl2
-	media-video/ffmpeg"
+	media-video/ffmpeg
+	dev-java/openjdk"
 DEPEND="${COMMON_DEPEND}"
 RDEPEND="${COMMON_DEPEND}"
 PDEPEND=""
