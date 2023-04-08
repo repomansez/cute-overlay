@@ -1,0 +1,12 @@
+diff --git a/src/rendervulkan.cpp b/src/rendervulkan.cpp
+index 55908a2..bbcf723 100644
+--- a/src/rendervulkan.cpp
++++ b/src/rendervulkan.cpp
+@@ -10,6 +10,7 @@
+ #include <bitset>
+ #include <thread>
+ #include <vulkan/vulkan_core.h>
++#include <sys/sysmacros.h>
+ 
+ // Used to remove the config struct alignment specified by the NIS header
+ #define NIS_ALIGNED(x)
