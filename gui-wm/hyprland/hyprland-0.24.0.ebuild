@@ -72,7 +72,6 @@ BDEPEND="
 "
 
 PATCHES=(
-#	"${FILESDIR}/meson-build.patch"
 	"${FILESDIR}/0.21.0-meson.patch"
 )
 
@@ -104,14 +103,9 @@ src_configure() {
 		$(meson_feature X xwayland)
 		$(meson_feature systemd)
 	)
-#	cd "${S}/subprojects/udis86" && ./autogen.sh && ./configure && make && cd - || die
 
 	meson_src_configure
 }
-
-#src_compile() {
-#	cd "${S}/subprojects/udis86/"; make; cd -
-#}
 
 src_install() {
 	meson_src_install --skip-subprojects
