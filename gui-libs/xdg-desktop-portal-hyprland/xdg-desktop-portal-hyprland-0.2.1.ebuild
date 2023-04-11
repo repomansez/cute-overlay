@@ -49,10 +49,14 @@ BDEPEND="
 "
 
 src_unpack() {
+if [[ ${PV} == 9999 ]]; then
 	default
-	
+	git-r3_src_unpack
+else
+	default
 	rmdir "${S}/subprojects/hyprland-protocols"
 	mv "${WORKDIR}/hyprland-protocols-${PROTOCOMMIT}" "${S}/subprojects/hyprland-protocols" || die
+fi
 }
 
 src_configure() {
