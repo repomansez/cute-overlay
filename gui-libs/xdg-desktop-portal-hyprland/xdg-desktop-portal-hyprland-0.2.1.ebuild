@@ -71,3 +71,14 @@ src_configure() {
 	fi
 	meson_src_configure
 }
+
+src_compile() {
+	meson_src_compile
+	cd "${S}/hyprland-share-picker" && make all && cd .. || die
+}
+
+src_install() {
+	#cp "${S}/hyprland-share-picker/build/hyprland-share-picker" /usr/bin || die
+	dobin "${S}/hyprland-share-picker/build/hyprland-share-picker" || die
+	meson_src_install
+}

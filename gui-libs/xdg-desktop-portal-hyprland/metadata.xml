@@ -2,8 +2,8 @@
 <!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
 <pkgmetadata>
 	<maintainer type="person">
-		<email>prometheanfire@gentoo.org</email>
-		<name>Matthew Thode</name>
+		<email>sbctani@protonmail.com</email>
+		<name>repoman</name>
 	</maintainer>
 	<use>
 		<flag name="elogind">Enable support for rootless session via elogind</flag>
