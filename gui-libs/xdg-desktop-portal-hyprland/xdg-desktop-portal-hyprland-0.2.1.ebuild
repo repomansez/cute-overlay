@@ -6,7 +6,7 @@ EAPI=8
 inherit meson
 
 DESCRIPTION="xdg-desktop-portal backend for hyprland"
-HOMEPAGE="https://github.com/hyprwm/xdg-desktop-portal-wlr"
+HOMEPAGE="https://github.com/hyprwm/xdg-desktop-portal-hyprland"
 
 PROTOCOMMIT=4d29e48433270a2af06b8bc711ca1fe5109746cd
 
