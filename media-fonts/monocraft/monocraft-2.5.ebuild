@@ -2,7 +2,7 @@ EAPI="8"
 
 inherit font
 
-DESCRIPTION="a font for programming and code review"
+DESCRIPTION="A monospaced programming font inspired by the Minecraft typeface"
 HOMEPAGE="https://github.com/IdreesInc/Monocraft"
 SRC_URI="https://github.com/IdreesInc/${PN}/releases/download/v${PV}/Monocraft.ttf -> ${PN}.ttf"
 
