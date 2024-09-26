@@ -8,6 +8,7 @@ EAPI=8
 CRATES="
 	adler@1.0.2
 	base64@0.21.7
+	base64@0.22.1
 	bitflags@1.3.2
 	bitflags@2.5.0
 	cc@1.0.90
@@ -60,36 +61,36 @@ CRATES="
 	rustix@0.38.32
 	rustls-native-certs@0.7.0
 	rustls-pemfile@2.1.1
-	rustls-pki-types@1.4.1
-	rustls-webpki@0.102.2
-	rustls@0.22.3
+	rustls-pki-types@1.7.0
+	rustls-webpki@0.102.5
+	rustls@0.23.11
 	ryu@1.0.17
 	schannel@0.1.23
 	security-framework-sys@2.9.1
 	security-framework@2.9.2
-	serde@1.0.197
-	serde_derive@1.0.197
+	serde@1.0.204
+	serde_derive@1.0.204
 	serde_json@1.0.115
-	serde_spanned@0.6.5
+	serde_spanned@0.6.7
 	spin@0.9.8
 	subtle@2.5.0
 	syn@2.0.55
 	tempfile@3.10.1
-	thiserror-impl@1.0.58
-	thiserror@1.0.58
+	thiserror-impl@1.0.63
+	thiserror@1.0.63
 	tinyvec@1.6.0
 	tinyvec_macros@0.1.1
-	toml@0.8.12
-	toml_datetime@0.6.5
-	toml_edit@0.22.9
+	toml@0.8.17
+	toml_datetime@0.6.8
+	toml_edit@0.22.18
 	unicase@2.7.0
 	unicode-bidi@0.3.15
 	unicode-ident@1.0.12
 	unicode-normalization@0.1.23
 	unicode-width@0.1.11
 	untrusted@0.9.0
-	ureq@2.9.6
-	url@2.5.0
+	ureq@2.10.0
+	url@2.5.2
 	version_check@0.9.4
 	wasi@0.11.0+wasi-snapshot-preview1
 	webpki-roots@0.26.1
@@ -114,7 +115,7 @@ CRATES="
 	windows_x86_64_gnullvm@0.52.4
 	windows_x86_64_msvc@0.48.5
 	windows_x86_64_msvc@0.52.4
-	winnow@0.6.5
+	winnow@0.6.16
 	zeroize@1.7.0
 "
 
@@ -124,7 +125,7 @@ DESCRIPTION="A CLI tool for rustypaste"
 HOMEPAGE="https://github.com/orhun/rustypaste"
 SRC_URI="
 	${CARGO_CRATE_URIS}
-	https://github.com/orhun/rustypaste-cli/archive/refs/tags/v0.9.0.zip -> ${P}.tar.gz
+	https://github.com/orhun/rustypaste-cli/archive/refs/tags/v0.9.1.zip -> ${P}.zip
 "
 
 LICENSE="MIT"
